@@ -1,6 +1,7 @@
 🧮 LeetMetric
 
-LeetMetric is a web-based LeetCode stats visualizer that lets users easily track their coding progress by simply entering their LeetCode username. It fetches real-time data from the LeetCode GraphQL API and displays detailed problem-solving statistics using a clean, interactive UI.
+LeetMetric is a web-based LeetCode stats visualizer that lets users easily track their coding progress by simply entering their LeetCode username.
+It fetches real-time data from the LeetCode GraphQL API and displays detailed problem-solving statistics using a clean, interactive UI.
 
 🚀 Features
 
@@ -26,18 +27,15 @@ Total questions (Easy, Medium, Hard)
 
 User’s accepted and total submission stats
 
-Data is dynamically displayed as circular progress charts and detailed submission cards.
+The data is dynamically displayed as circular progress charts and detailed submission cards.
 
 🧰 Tech Stack
+Layer	Technology
+🎨 Frontend	HTML5, CSS3, JavaScript (Vanilla)
+🔗 API	LeetCode GraphQL API
+🧩 Proxy	CORS Anywhere
 
-Frontend: HTML5, CSS3, JavaScript (Vanilla)
-
-API: LeetCode GraphQL API
-
-Proxy: CORS Anywhere
-
-No frameworks or external libraries required
-
+⚡ Dependencies	None — built with no frameworks or libraries
 ⚙️ Installation & Usage
 
 Clone this repository:
@@ -46,17 +44,10 @@ git clone https://github.com/your-username/LeetMetric.git
 cd LeetMetric
 
 
-Open index.html in your browser.
+Open the app:
+
+Open index.html directly in your web browser.
 
 Enter your LeetCode username and click Search.
 
-💡 Tip: If CORS issues occur, ensure the proxy (https://cors-anywhere.herokuapp.com/) is enabled or replace it with your own.
-
-📸 Preview
-
-📂 Project Structure
-LeetMetric/
-│
-├── index.html      # Main HTML structure
-├── style.css       # Styling for UI and progress visuals
-└── index.js        # Core logic and API interaction
+💡 Tip: If CORS issues occur, ensure the proxy (https://cors-anywhere.herokuapp.com/) is enabled or replace it with your own hosted proxy server.
