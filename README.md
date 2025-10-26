@@ -1,21 +1,21 @@
-# 🧮 LeetMetric
+# LeetMetric
 
 **LeetMetric** is a web-based LeetCode stats visualizer that lets users easily track their coding progress by simply entering their LeetCode username.  
 It fetches real-time data from the LeetCode GraphQL API and displays detailed problem-solving statistics using a clean, interactive UI.
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🔍 **Search by Username** — Enter your LeetCode username to fetch personalized stats.  
-- 📊 **Real-time Progress Visualization** — Displays the number of solved problems categorized by *Easy*, *Medium*, and *Hard* difficulty levels.  
-- 🧩 **Dynamic Progress Circles** — Visual indicators that fill according to your completion percentage.  
-- 📈 **Submission Stats Cards** — Shows total submissions across all difficulty levels.  
-- 💡 **Responsive UI** — Modern, minimal interface designed with pure HTML, CSS, and JavaScript.
+-  **Search by Username** — Enter your LeetCode username to fetch personalized stats.  
+- **Real-time Progress Visualization** — Displays the number of solved problems categorized by *Easy*, *Medium*, and *Hard* difficulty levels.  
+-  **Dynamic Progress Circles** — Visual indicators that fill according to your completion percentage.  
+-  **Submission Stats Cards** — Shows total submissions across all difficulty levels.  
+-  **Responsive UI** — Modern, minimal interface designed with pure HTML, CSS, and JavaScript.
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. The user enters their **LeetCode username**.  
 2. JavaScript validates the input and sends a request to the **LeetCode GraphQL API** via a **proxy** to avoid CORS issues.  
@@ -28,21 +28,12 @@ It fetches real-time data from the LeetCode GraphQL API and displays detailed pr
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
-| Layer | Technology |
-| :-- | :-- |
-| 🎨 Frontend | HTML5, CSS3, JavaScript (Vanilla) |
-| 🔗 API | LeetCode GraphQL API |
-| 🧩 Proxy | CORS Anywhere |
-
-**⚡ Dependencies:** None — built with no frameworks or libraries.
+Technology 
+Frontend - HTML5, CSS3, JavaScript (Vanilla) 
+API - LeetCode GraphQL API 
+Proxy - CORS Anywhere 
 
 ---
 
-## ⚙️ Installation & Usage
-
-### 1️⃣ Clone this repository:
-```bash
-git clone https://github.com/your-username/LeetMetric.git
-cd LeetMetric
